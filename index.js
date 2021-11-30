@@ -1,8 +1,5 @@
 var express = require('express');
 var fs = require('fs')
-var bodyParser = require('body-parser');
-var validator = require('validator');
-var url = require("url");
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
